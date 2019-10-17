@@ -1,0 +1,4 @@
+<h1>all da destinations</h1>
+<% @des.each do |des| %>
+    <li><%= link_to des.name, destination_path(des) %>
+<% end %>
